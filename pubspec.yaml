@@ -1,0 +1,64 @@
+name: blind_help
+description: "A new Flutter project."
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  flutter_svg: ^2.0.10+1
+  flutter_launcher_icons: ^0.13.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/icon/icon.png"
+  min_sdk_android: 21 
+  web:
+    generate: true
+    image_path: "path/to/image.png"
+    background_color: "#hexcode"
+    theme_color: "#hexcode"
+  windows:
+    generate: true
+    image_path: "path/to/image.png"
+    icon_size: 48 
+  macos:
+    generate: true
+    image_path: "path/to/image.png" 
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - images/background-load.png
+    - images/logo-blind-help.png
+    - images/google.png
+    - images/line_logo.png
+    - assets/home-variant.svg
+    - assets/forum-outline.svg
+    - assets/phone.svg
+    - assets/book-open.svg
+  fonts:
+    - family: Kanit
+      fonts:
+        - asset: fonts/Kanit-Regular.ttf
+        - asset: fonts/Kanit-Italic.ttf
+        - asset: fonts/Kanit-Bold.ttf
+          weight: 700
+    - family: Sarabun
+      fonts:
+        - asset: fonts/Sarabun-Regular.ttf
+        - asset: fonts/Sarabun-Bold.ttf
+          weight: 700
